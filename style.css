@@ -1,0 +1,71 @@
+/* Reset some default browser styles */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('https://th.bing.com/th/id/R.de11a5d9a94920cfd39cd090bb86d7db?rik=DVpUEywSMpZtDg&riu=http%3a%2f%2fimg.deusm.com%2fdesignnews%2f2016%2f01%2f279335%2fPannam-blog.jpg&ehk=iX%2fLc2qyHFrp6VP2iuF%2bddmtJ%2fYazvCQfw8698nnVpM%3d&risl=&pid=ImgRaw&r=0'); 
+	background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* Style the header */
+header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Style the navigation menu */
+nav {
+    background-color: #444;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: block;
+}
+
+/* Style the main content area */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 600px) {
+    main {
+        padding: 10px;
+    }
+}
+
