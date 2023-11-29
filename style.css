@@ -5,7 +5,7 @@ body, h1, h2, p, ul {
 }
 
 body {
-    background-image: url('azure.jpg'); 
+    background-color: #3498db;
 	background-size: cover;
     background-position: center;
     background-attachment: fixed;
