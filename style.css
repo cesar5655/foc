@@ -5,11 +5,11 @@ body, h1, h2, p, ul {
 }
 
 body {
-    background-color: #3498db;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
+    background-color: red; /* Set the background color to blue */
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
 }
+
 
 /* Style the header */
 .header {
