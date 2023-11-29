@@ -12,13 +12,12 @@ body {
 }
 
 /* Style the header */
-header {
-    background-color: red;
-    color: #fff;
+.header {
+    background-color: red; /* Set the background color of the header to red */
+    color: white; /* Set the text color to white */
     padding: 10px;
     text-align: center;
 }
-
 /* Style the navigation menu */
 nav {
     background-color: #444;
